@@ -1,0 +1,147 @@
+.banner{
+    background-image: url(banner.jpg);
+    color: white;
+    background-size: 100%;
+    background-repeat: no-repeat;
+   
+}
+
+.brand-font{
+    font-family: 'Sedgwick Ave', cursive;
+    font-size: 36px;
+  
+}
+
+.container-fluid{
+    padding: 0 !important;
+}
+
+.heading{
+    font-family: 'Rammetto One', cursive;
+    font-size: 50px;
+    margin-top: 260px;
+}
+
+.subHeading{
+    padding-bottom: 180px;
+}
+
+.Roboto-font{
+    font-family: 'Roboto Slab', serif;
+}
+
+footer{
+    background-color: #292b2c;
+    color: white;
+    padding: 20px;
+    margin-top: 100px;
+}
+
+#iconStyle{
+    font-size: 24px;
+    color:white;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#iconStyle:hover{
+    color: orange;
+}
+
+.subscribe-button{
+    font-family: 'Roboto Slab', serif;
+    background-color: rgb(204, 149, 66);
+    color: whitesmoke;
+    border-color: orange;
+    cursor: pointer;
+}
+
+.subscribe-button:hover {
+    background-color: orange;
+    color: whitesmoke
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    grid-gap: 10px;
+
+  }
+  
+  .box {
+    background-color: #444;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 20px;
+  }
+
+
+  .card-text{
+    color: black;
+    font-family:'Times New Roman', Times, serif;
+
+  }
+
+  #blog-heading{
+    font-family: 'Vollkorn', serif;
+    font-size: 50px;
+  }
+
+  @media only screen and (max-width: 784px) {
+
+    .heading{
+        font-family: 'Rammetto One', cursive;
+        font-size: 30px;
+        margin-top: 120px;
+    }
+    
+    .subHeading{
+        padding-bottom: 100px;
+    }
+}
+
+  @media only screen and (min-width: 320px) and (max-width: 480px) {
+
+    .banner{
+        background-image: url(banner.jpg);
+        color: white;
+        background-size: 100%;
+        background-position: center;
+       
+    }
+    
+    .brand-font{
+        font-family: 'Sedgwick Ave', cursive;
+        font-size: 18px;
+      
+    }
+    
+    .heading{
+        font-family: 'Rammetto One', cursive;
+        font-size: 15px;
+        margin-top: 60px;   
+    }
+    
+    .subHeading{
+        font-size: 8px;  
+        padding-bottom: 100px;
+    }
+
+    .wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+
+    .box {
+        background-color: #444;
+        color: #fff;
+        border-radius: 5px;
+        padding: 10px;
+    
+      }
+
+
+  }
+
