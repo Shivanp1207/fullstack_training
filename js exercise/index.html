@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js Task</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>  
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark p-3">
+                      
+        <a class="navbar-brand text-white" href="#">DATAHUB</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">About</a>
+            </li>
+   
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Services</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+              <button type="button" class="btn btn-warning "><i class="bi bi-person-fill "></i> Sign-in</button>
+          </form>
+        </div>
+     
+    </nav>
+</header>
+<main>
+    <div class="container">
+        <br>
+        <h1>User Details</h1><br>
+        <div class="row">
+                <div class="col-xl-4 offset-xl-8 mb-2">
+                    <div class="form-outline text-end">
+                    <input type="text" id="myInput" onkeyup="myFunction()" class="form-control" placeholder="Search By Name..."
+                    aria-label="Search" />
+                  </div>
+                </div>
+               <div class="col-xl-12"> 
+                <table class="table table-hover"  id="myTable"  >
+                    <thead class="table-primary">
+                    <tr>
+                         <th scope="col">Id</th>
+                         <th scope="col">Name</th>
+                         <th scope="col">Username</th>
+                         <th scope="col">Email</th>
+                         <th scope="col" colspan="2">Address</th>
+                         <th scope="col">Phone</th>
+                         <th scope="col">Website</th>
+                         <th scope="col">Company</th>
+                    </tr>
+                    </thead>
+                
+                </table>
+            </div>
+        </div>
+    </div>
+</main>
+    <footer>
+        <div class="container-fluid bg-dark">
+            <div class="row text-center">
+                <div class="col-xl-12 pt-5">
+                    <i class="bi bi-facebook icon-style"></i>
+                    <i class="bi bi-twitter icon-style"></i>
+                    <i class="bi bi-instagram icon-style"></i>
+                </div>
+                <div class="col-xl-12 text-white pt-4 pb-4">
+                    <a href="#"> Info </a> .
+                    <a href="#"> Support </a> .
+                    <a href="#"> Marketing</a> <br>
+
+                    <a href="#">Terms of Use</a> .
+                    <a href="#">Privacy Policy</a>
+
+                    <h4> © 2021 Copyright Shivaprasad Pujari</h4>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="script.js"></script>
+</body>
+</html>

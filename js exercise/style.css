@@ -1,0 +1,54 @@
+:root {
+    --font_one: 'cursive', sans-serif;
+    --font-two: 'Verdana, Geneva, Tahoma, sans-serif';
+    --font-three: 'Georgia, 'Times New Roman', Times, serif';
+    --color_white: #FFFFFF;
+    --color_one:  chocolate;
+    --color_two: yellow;
+
+}
+
+main h1{
+    font-family:var(--font_one);
+}
+
+.navbar-brand{
+    font-family: var(--font_one);
+    font-size: 30px;
+}
+
+.icon-style{
+    font-size: 35px;
+    color: var(--color_one);
+    padding: 10px;
+}
+
+.icon-style:hover{
+    color: var(--color_two);
+    cursor: pointer;
+}
+main{
+    min-height: 150vh;
+}
+footer{
+    margin-top: auto;
+}
+
+footer a{
+    text-decoration: none;
+    color:var(--color_white);
+    font-family: var(--font-two);
+    line-height: 30px;
+}
+
+footer a:hover{
+    color: var(--color_one);
+}
+
+footer h4{
+    padding-top: 5px;
+    font-size: 20px;
+    line-height: 30px;
+    font-family: var(--font-three);
+    opacity: 0.7;
+}
